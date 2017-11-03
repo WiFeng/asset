@@ -1,7 +1,10 @@
 
-syn on   
+syn on
 filetype on
-colorscheme evening
+
+" Color scheme
+"colorscheme evening
+colorscheme molokai
 
 "set number
 "set nowrap
@@ -20,6 +23,12 @@ set listchars=tab:>-,trail:-
 set encoding=utf-8
 "set noendofline binary
 set fileformats=unix,dos
+
+" Terminal Color
+set t_Co=256
+" Highlight current line
+set cursorline cursorcolumn
+
 
 nnoremap <silent> <F5> :NERDTree<CR>
 nnoremap <silent> <F8> :TagbarToggle<CR>
