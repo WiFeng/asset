@@ -22,6 +22,7 @@ set encoding=utf-8
 set fileformats=unix,dos
 
 nnoremap <silent> <F5> :NERDTree<CR>
+nnoremap <silent> <F8> :TagbarToggle<CR>
 
 noremap <silent><tab>m :tabnew<cr>
 noremap <silent><tab>e :tabclose<cr>
