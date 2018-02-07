@@ -8,3 +8,6 @@ Perfect configuration
 * [fugitive](https://github.com/vim-airline/vim-airline)
 * [airline](https://github.com/vim-airline/vim-airline/)
 
+# Tips
+如果使用的Xshell终端,请调整字体为：`Consolas`，由于默认的 `Courier New` 无法正常显示 NERDTree 插件的目录标志
+

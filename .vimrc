@@ -30,7 +30,7 @@ set t_Co=256
 set cursorline cursorcolumn
 
 
-nnoremap <silent> <F5> :NERDTree<CR>
+nnoremap <silent> <F5> :NERDTreeToggle<CR>
 nnoremap <silent> <F8> :TagbarToggle<CR>
 
 noremap <silent><tab>m :tabnew<cr>
