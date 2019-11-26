@@ -5,7 +5,7 @@ Perfect configuration
 * [NERD_Tree](https://github.com/scrooloose/nerdtree)
 * [tagbar](https://github.com/majutsushi/tagbar/tree/70fix)
 * [molokai](https://github.com/tomasr/molokai)
-* [fugitive](https://github.com/vim-airline/vim-airline)
+* [fugitive](https://github.com/tpope/vim-fugitive)
 * [airline](https://github.com/vim-airline/vim-airline/)
 
 # Tips
