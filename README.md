@@ -17,7 +17,7 @@ To install from command line: `vim +PluginInstall +qall`
 
 # Dependences:
 * [Vim 8.0.1453](https://github.com/vim/vim)
-* [Vundle.vim](https://github.com/VundleVim/Vundle.vim)
+* [Vim-plug](https://github.com/junegunn/vim-plug)
 
 # Tips
 * `vim-go` 插件需要 Vim  or Neovim 0.3.2
