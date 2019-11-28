@@ -31,6 +31,8 @@ Plug 'tomasr/molokai'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'SirVer/ultisnips'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " Initialize plugin system
 call plug#end()
@@ -55,6 +57,8 @@ set laststatus=2
 
 "set expandtab
 set autoindent
+
+set uncompatible
 
 set list
 set listchars=tab:>-,trail:-
@@ -94,3 +98,5 @@ inoremap <silent><s-tab> <ESC>:tabnext<CR>
 autocmd FileType c,cpp,python,ruby,java,sh,html,javascript autocmd BufWritePre <buffer> :%s/\s\+$//e
 autocmd VimEnter * :NERDTree
 
+let g:go_fmt_autosave = 0
+let g:go_fmt_command = "goimports"
