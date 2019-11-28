@@ -58,8 +58,6 @@ set laststatus=2
 "set expandtab
 set autoindent
 
-set uncompatible
-
 set list
 set listchars=tab:>-,trail:-
 
