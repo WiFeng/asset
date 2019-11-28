@@ -31,7 +31,6 @@ Plug 'tomasr/molokai'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'SirVer/ultisnips'
 Plug 'ctrlpvim/ctrlp.vim'
 
 " Initialize plugin system
