@@ -11,9 +11,9 @@ Perfect configuration
 
 # Install Plugins:
 
-Launch `vim` and run `:PluginInstall`
+Launch `vim` and run `:PlugInstall`
 
-To install from command line: `vim +PluginInstall +qall`
+To install from command line: `vim +PlugInstall +qall`
 
 # Dependences:
 * [Vim 8.0.1453](https://github.com/vim/vim)
@@ -21,5 +21,6 @@ To install from command line: `vim +PluginInstall +qall`
 
 # Tips
 * `vim-go` 插件需要 Vim  or Neovim 0.3.2
+* `vim-go` 使用指南 https://github.com/fatih/vim-go/wiki/Tutorial
 * 如果使用的Xshell终端,请调整字体为：`Consolas`，由于默认的 `Courier New` 无法正常显示 NERDTree 插件的目录标志
 
