@@ -54,6 +54,7 @@ set softtabstop=4
 set tabstop=4
 set laststatus=2
 set backspace=indent,eol,start
+set autowrite
 
 "set expandtab
 set autoindent
@@ -96,5 +97,10 @@ inoremap <silent><s-tab> <ESC>:tabnext<CR>
 autocmd FileType c,cpp,python,ruby,java,sh,html,javascript autocmd BufWritePre <buffer> :%s/\s\+$//e
 autocmd VimEnter * :NERDTree
 
+"vim-go
+autocmd FileType go nmap <Leader>i <Plug>(go-info)
+autocmd FileType go nmap <leader>b <Plug>(go-build)
+autocmd FileType go nmap <leader>r <Plug>(go-run)
 let g:go_fmt_autosave = 0
 let g:go_fmt_command = "goimports"
+let g:go_auto_type_info = 1
